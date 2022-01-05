@@ -2,14 +2,23 @@ const products = [
   {
     id: "1",
     name: "Test Product",
-    href: "#",
+    href: `/product/1`,
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-01.jpg",
     price: "$19.99",
     description: "this is a product.",
   },
   {
-    id: "1",
+    id: "2",
+    name: "Test Product",
+    href: "/product/2",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-01.jpg",
+    price: "$19.99",
+    description: "this is a product.",
+  },
+  {
+    id: "3",
     name: "Test Product",
     href: "#",
     imageSrc:
@@ -18,7 +27,7 @@ const products = [
     description: "this is a product.",
   },
   {
-    id: "1",
+    id: "4",
     name: "Test Product",
     href: "#",
     imageSrc:
@@ -27,7 +36,7 @@ const products = [
     description: "this is a product.",
   },
   {
-    id: "1",
+    id: "5",
     name: "Test Product",
     href: "#",
     imageSrc:
@@ -36,16 +45,7 @@ const products = [
     description: "this is a product.",
   },
   {
-    id: "1",
-    name: "Test Product",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-01.jpg",
-    price: "$19.99",
-    description: "this is a product.",
-  },
-  {
-    id: "1",
+    id: "6",
     name: "Test Product",
     href: "#",
     imageSrc:
