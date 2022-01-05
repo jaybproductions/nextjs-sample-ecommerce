@@ -4,7 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "About", href: "#" },
+  { name: "About", href: "/about" },
   { name: "Shop", href: "#" },
   { name: "Blog", href: "#" },
   { name: "Contact", href: "#" },
@@ -32,7 +32,7 @@ const Header = () => {
             >
               <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
+                  <a href="/">
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-8 w-auto sm:h-10"
